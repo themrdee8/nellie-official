@@ -8,22 +8,22 @@ const poet = Merriweather({ subsets: ["latin"], weight: "700" });
 const Navbar = () => {
   return (
     <div className="items-center">
-      <div className="bg-white border-transparent border-r-2 flex justify-between mt-8 md:mx-72 rounded-3xl p-8 shadow-lg shadow-gray-400">
+      <div className="bg-white border-transparent border-r-2 flex justify-between mt-4 md:mt-6 mx-2 md:mx-40 rounded-2xl md:rounded-3xl p-2 md:p-4 shadow-lg shadow-[#A9A295]">
         <div className="flex justify-between">
           <Image
             src={nellieLogo}
             alt="Logo"
-            className="w-14 h-14 rounded-full object-contain"
+            className="w-8 h-8 md:w-14 md:h-14 rounded-full object-contain"
           />
-          <h1 className={`text-2xl ml-4 mt-3 ${poet.className}`}>Nellie</h1>
+          <h1 className={`text-base mt-1 ml-2 md:text-2xl md:ml-4 md:mt-3 ${poet.className}`}>Nellie</h1>
         </div>
 
         <div className="">
-          <ul className="flex px-2 text-2xl mt-2">
-            <li className="ml-10">Home</li>
-            <li className="ml-10">About</li>
-            <li className="ml-10">Best Selling</li>
-            <li className="ml-10">Contact</li>
+          <ul className="flex md:px-2 text-xs md:text-sm mt-2 md:mt-4">
+            <li className="md:ml-6">Home</li>
+            <li className="ml-3 md:ml-6">About</li>
+            <li className="ml-3 md:ml-6 hidden md:block">Best Selling</li>
+            <li className="ml-3 md:ml-6">Contact</li>
           </ul>
         </div>
       </div>
