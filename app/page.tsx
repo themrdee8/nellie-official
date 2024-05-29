@@ -1,3 +1,4 @@
+import BestSelling from "@/components/BestSelling";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import ProductCard from "@/components/ProductCard";
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ProductCard />
+      <BestSelling />
     </>
   );
 }

@@ -55,7 +55,7 @@ const ProductCard = () => {
         </h1>
         <p className="md:text-base hidden md:block  md:w-[90%] text-left ml-6">
           Adorn your wrists with our carefully curated selection of bracelets,
-          designed to add a touch of sophistication to any ensemble.md:
+          designed to add a touch of sophistication to any ensemble.
         </p>
       </div>
 
