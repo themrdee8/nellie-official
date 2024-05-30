@@ -18,7 +18,7 @@ const ProductCard = () => {
               className="w-20 h-20 md:w-44 md:h-44 rounded-full object-cover md:mb-4"
             />
           </div>
-          <h1 className="text-base md:text-2xl pb-3 md:pb-6 font-medium md:font-semibold text-center">
+          <h1 className="text-base md:text-2xl pb-3 md:pb-6 font-medium md:font-semibold ml-12 md:ml-0 md:text-center">
             Rings
           </h1>
         </Link>
@@ -30,14 +30,14 @@ const ProductCard = () => {
 
       <div className="md:mr-6 pt-4 md:pt-0">
         <Link href="/earrings" className="hover:text-[#975843]">
-          <div className="ml-8 md:ml-4">
+          <div className="ml-8 justify-center md:ml-4">
             <Image
               src={silverGold}
               alt="earring_silver_gold"
               className="w-20 h-20 md:w-44 md:h-44 rounded-full object-cover md:mb-4"
             />
           </div>
-          <h1 className="text-base md:text-2xl pb-3 md:pb-6 font-medium md:font-semibold text-center">
+          <h1 className="text-base md:text-2xl pb-3 md:pb-6 font-medium md:font-semibold ml-10 md:ml-0 md:text-center">
             Earrings
           </h1>
         </Link>
@@ -56,7 +56,7 @@ const ProductCard = () => {
               className="w-20 h-20 md:w-44 md:h-44 rounded-full object-cover md:mb-4"
             />
           </div>
-          <h1 className="text-base md:text-2xl pb-3 md:pb-6 font-medium md:font-semibold text-center">
+          <h1 className="text-base md:text-2xl pb-3 md:pb-6 font-medium md:font-semibold ml-10 md:ml-0 md:text-center">
             Bracelet
           </h1>
         </Link>
@@ -75,7 +75,7 @@ const ProductCard = () => {
               className="w-20 h-20 md:w-44 md:h-44 rounded-full object-cover md:mb-4"
             />
           </div>
-          <h1 className="text-base md:text-2xl pb-3 md:pb-6 font-medium md:font-semibold text-center">
+          <h1 className="text-base md:text-2xl pb-3 md:pb-6 font-medium md:font-semibold ml-10 md:ml-0 md:text-center">
             Necklace
           </h1>
         </Link>

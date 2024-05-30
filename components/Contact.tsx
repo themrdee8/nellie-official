@@ -28,7 +28,7 @@ const Contact = () => {
             questions you may have.
           </p>
         </div>
-        <div className="flex space-x-3 md:pb-4 pb-8">
+        <div className="flex space-x-3 md:pb-4 pb-8 md:justify-normal justify-center">
           <Link href="https://www.instagram.com/nellie_.offical?igsh=YnlhZXZsbnRjcmFq">
             <div className="bg-[#975843] p-2 rounded-md">
               <FaInstagram className="text-[#DED8CD]" />
