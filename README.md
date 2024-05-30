@@ -6,7 +6,6 @@ and unique designs tailored for every occasion.
 
 ## Technologies
 
-- Next.js
-- React
-- Lucid React
-- React Icons
+- _Next.js_
+- _React_
+- _React Icons_

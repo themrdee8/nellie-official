@@ -4,7 +4,10 @@ import bodyShotImg from "@/public/assets/bodyShot.jpg";
 
 const Hero = () => {
   return (
-    <div className="flex items-center justify-between mx-4 md:mx-48 mt-8 md:mt-20 rounded-2xl md:rounded-3xl bg-[#E8E4DD]">
+    <div
+      id="home"
+      className="flex items-center justify-between mx-4 md:mx-48 mt-8 md:mt-20 rounded-2xl md:rounded-3xl bg-[#E8E4DD]"
+    >
       <div className="w-[900px] md:w-[50%]">
         <Image
           src={bodyShotImg}
