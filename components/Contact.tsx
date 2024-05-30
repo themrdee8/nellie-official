@@ -10,18 +10,18 @@ import card from "@/public/assets/cards.jpg";
 
 const Contact = () => {
   return (
-    <div className="bg-[#E8E4DD] md:mx-48 md:mt-20 md:px-32 md:pt-28 md:pb-12 grid md:grid-cols-2 rounded-t-3xl space-x-16">
+    <div className="bg-[#E8E4DD] mx-4 md:mx-48 mt-8 md:mt-20 px-12 md:px-32 pt-6 md:pt-28 md:pb-12 grid md:grid-cols-2 rounded-t-3xl space-x-16">
       <div>
-        <div className="md:pb-4">
-          <h1 className="md:font-bold md:text-2xl">Get In Touch</h1>
+        <div className="md:pb-4 pb-3">
+          <h1 className="md:font-bold md:text-2xl text-xl font-medium">Get In Touch</h1>
         </div>
         <div className="md:pb-4">
-          <p>
+          <p className="md:pb-0 pb-4 text-sm md:text-base font-light md:font-normal">
             We are always available for pre-orders, special orders and any
             questions you may have.
           </p>
         </div>
-        <div className="flex space-x-3">
+        <div className="flex space-x-3 md:pb-4 pb-8">
           <div className="bg-[#975843] p-2 rounded-md">
             <FaInstagram className="text-[#DED8CD]" />
           </div>
@@ -37,14 +37,14 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="relative" >
+      <div className="relative hidden md:block">
         <Image
           src={card}
           alt="company_card"
-          className="w-full h-52 pl-10 rounded-br-2xl rounded-tl-2xl object-fill absolute right-[72px] bottom-[12%]"
+          className="md:w-full md:h-52 pl-10 rounded-br-2xl rounded-tl-2xl object-fill absolute right-[72px] bottom-[12%]"
         />
 
-        <div className="w-72 h-52 rounded-br-2xl right-[30px]  bg-[#3C302D]"></div>
+        <div className="md:w-72 md:h-52 rounded-br-2xl right-[30px]  bg-[#3C302D]"></div>
       </div>
     </div>
   );
