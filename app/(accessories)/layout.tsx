@@ -50,7 +50,7 @@ const AccessoriesLayout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div
-      className="h-full w-full bg-white overflow-y-scroll perspective"
+      className="h-full w-full overflow-y-scroll perspective"
       // style={{ perspective: "1000px" }}
     >
       <div className="relative transform-3d">
@@ -68,8 +68,8 @@ const AccessoriesLayout = ({ children }: { children: React.ReactNode }) => {
               <div className="flex items-center group">
                 <div
                   className={cn(
-                    "border border-black px-2 py-[4px] group-hover:bg-black rounded-md mr-1 hover:transition duration-500",
-                    pathname === route.href ? "bg-black" : "bg-white"
+                    "border border-[#975843] px-2 py-[4px] group-hover:bg-[#975843] rounded-md mr-1 hover:transition duration-500",
+                    pathname === route.href ? "bg-[#975843]" : "bg-white"
                   )}
                 />
 
@@ -79,7 +79,7 @@ const AccessoriesLayout = ({ children }: { children: React.ReactNode }) => {
           ))}
         </div>
 
-        <div className="bg-white transform-gpu" id="childrenContainer">
+        <div className="transform-gpu" id="childrenContainer">
           {children}
         </div>
       </div>
