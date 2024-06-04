@@ -5,6 +5,7 @@ import coverImg from "@/public/assets/cover3.jpg";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { ImArrowLeft2 } from "react-icons/im";
 
 const AccessoriesLayout = ({ children }: { children: React.ReactNode }) => {
   // useEffect(() => {
@@ -77,6 +78,14 @@ const AccessoriesLayout = ({ children }: { children: React.ReactNode }) => {
               </div>
             </Link>
           ))}
+        </div>
+
+        <div className="flex justify-start items-center pl-4 mt-6 md:mt-0 md:pt-4 pb-0">
+          <Link href="/">
+            <div className="rounded-full bg-[#EEE7E5] shadow-lg shadow-[#A9A295] p-2 md:p-4 cursor-pointer ease-in duration-300 hover:scale-105">
+              <ImArrowLeft2 className="text-[#975843]" />
+            </div>
+          </Link>
         </div>
 
         <div className="transform-gpu" id="childrenContainer">

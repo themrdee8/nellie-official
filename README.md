@@ -9,3 +9,4 @@ and unique designs tailored for every occasion.
 - _Next.js_
 - _React_
 - _React Icons_
+- _Shadcn UI_

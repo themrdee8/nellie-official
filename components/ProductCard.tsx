@@ -5,6 +5,7 @@ import butterFly from "@/public/assets/bracelets/Butterflybracelet.jpg";
 import Lovependant from "@/public/assets/necklaces/Lovenecklace.jpg";
 import goldRing from "@/public/assets/rings/goldRing2.jpg";
 import Link from "next/link";
+import comingSoon from "@/public/assets/comingSoon.jpg";
 
 const ProductCard = () => {
   return (
@@ -13,8 +14,8 @@ const ProductCard = () => {
         <Link href="/rings" className="hover:text-[#975843]">
           <div className="ml-8 md:ml-4">
             <Image
-              src={goldRing}
-              alt="gold_ring"
+              src={comingSoon}
+              alt="coming soon"
               className="w-20 h-20 md:w-44 md:h-44 rounded-full object-cover md:mb-4"
             />
           </div>
